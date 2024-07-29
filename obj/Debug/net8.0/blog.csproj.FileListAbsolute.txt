@@ -1,0 +1,5 @@
+/blog/obj/Debug/net8.0/blog.GeneratedMSBuildEditorConfig.editorconfig
+/blog/obj/Debug/net8.0/blog.AssemblyInfoInputs.cache
+/blog/obj/Debug/net8.0/blog.AssemblyInfo.cs
+/blog/obj/Debug/net8.0/blog.csproj.CoreCompileInputs.cache
+/blog/obj/Debug/net8.0/blog.MvcApplicationPartsAssemblyInfo.cache

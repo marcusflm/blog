@@ -1,0 +1,21 @@
+services:
+  blog:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: sleep infinity
+    working_dir: /blog
+    environment:
+      - CONTAINER_ROLE=ALL
+    network_mode: service:sqlserver
+    volumes:
+      - ../:/blog:cached
+    # ports:
+    #   - 8080:8080
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - SA_PASSWORD=1q2w3e4r@#$
+      - ACCEPT_EULA=Y
+    ports:
+      - "1433:1433"

@@ -1,0 +1,23 @@
+{
+    "name": "blog",
+    "service": "blog",
+    "dockerComposeFile": "../.docker/docker-compose.yml",
+    "workspaceFolder": "/blog",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh",
+                "csharp.suppressHiddenFilesInExplorer": true,
+                "CSharpFormatting.FormatOnSave": true
+            },
+            // Extensões do VSCODE instaladas dentro do container
+            "extensions": [
+                "dracula-theme.theme-dracula",
+                "vscode-icons-team.vscode-icons",
+                "ms-dotnettools.csharp",
+                "ms-vscode.csharp",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
