@@ -1,6 +1,7 @@
 #!/bin/bash
 
 export PATH="$PATH:/root/.dotnet/tools"
+dotnet new gitignore
 dotnet tool install --global dotnet-ef
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Design
