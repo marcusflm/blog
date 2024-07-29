@@ -115,6 +115,7 @@
 /blog/obj/Debug/net8.0/blog.AssemblyInfo.cs
 /blog/obj/Debug/net8.0/blog.csproj.CoreCompileInputs.cache
 /blog/obj/Debug/net8.0/blog.MvcApplicationPartsAssemblyInfo.cache
+/blog/obj/Debug/net8.0/blog.sourcelink.json
 /blog/obj/Debug/net8.0/staticwebassets.build.json
 /blog/obj/Debug/net8.0/staticwebassets.development.json
 /blog/obj/Debug/net8.0/staticwebassets/msbuild.blog.Microsoft.AspNetCore.StaticWebAssets.props
@@ -129,4 +130,3 @@
 /blog/obj/Debug/net8.0/blog.pdb
 /blog/obj/Debug/net8.0/blog.genruntimeconfig.cache
 /blog/obj/Debug/net8.0/ref/blog.dll
-/blog/obj/Debug/net8.0/blog.sourcelink.json
