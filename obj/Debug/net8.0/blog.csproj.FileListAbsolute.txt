@@ -129,3 +129,4 @@
 /blog/obj/Debug/net8.0/blog.pdb
 /blog/obj/Debug/net8.0/blog.genruntimeconfig.cache
 /blog/obj/Debug/net8.0/ref/blog.dll
+/blog/obj/Debug/net8.0/blog.sourcelink.json
